@@ -16,7 +16,7 @@ ggplot (data = lockdown_data) +
 
  lockdown_data <- lockdown_data %>%
     mutate(
-     lockdown_data1 = lockdown_data %>%
+    know_facebook1 = know_facebook %>%
         recode(
           'Nothing at all' = 0,
           'Not very much' = 1,
