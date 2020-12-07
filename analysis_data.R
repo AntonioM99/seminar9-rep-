@@ -8,3 +8,7 @@ ggplot (data = lockdown_data) +
   position = "jitter"
 )
   
+ggplot (data = lockdown_data) +
+  geom_point(mapping = aes(x = gender, y = beliefs),
+  position = "jitter"
+  )
